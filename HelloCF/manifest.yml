@@ -1,0 +1,7 @@
+---
+applications:
+- name: Hello java
+  memory: 768M
+  instances: 1
+  random-route: true
+  path: target/hello-java.war
